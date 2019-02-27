@@ -1,6 +1,6 @@
 {
     "name": "capacitor-zendesk-chat",
-    "version": "0.0.1",
+    "version": "1.0.0-beta.1",
     "description": "Zendesk Chat plugin for Capacitor",
     "author": "Paul Bottein",
     "homepage": "https://github.com/sencrop/capacitor-zendesk-chat",
@@ -12,7 +12,7 @@
         "clean": "rm -rf ./dist",
         "watch": "tsc --watch",
         "prepublishOnly": "npm run build"
-      },
+    },
     "files": [
         "dist/",
         "ios/",
