@@ -13,9 +13,7 @@
 Add your key on `capacitor.json` and sync it with `npx cap sync`.
 ```json
 {
-  ...
   "plugins": {
-    ...
     "ZendeskChat": {
       "accountKey": "your-zendesk-account--key"
     }
@@ -83,17 +81,17 @@ dependencies {
 **Register the plugin** in `com.companyname.appname.MainActivity#onCreate`
 
 ```java
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-      super.onCreate(savedInstanceState);
+@Override
+public void onCreate(Bundle savedInstanceState) {
+  super.onCreate(savedInstanceState);
 
-      this.init(savedInstanceState, new ArrayList<Class<? extends Plugin>>() {{
+    this.init(savedInstanceState, new ArrayList<Class<? extends Plugin>>() {{
 
-        ...
+    ...
 
-        add(ZendeskChat.class); // Add ZendeskChat Plugin
-      }});
-    }
+    add(ZendeskChat.class); // Add ZendeskChat Plugin
+  }});
+}
 ```
 
 ## Platform: iOS
