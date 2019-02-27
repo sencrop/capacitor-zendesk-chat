@@ -13,9 +13,7 @@
 Add your key on `capacitor.json` and sync it with `npx cap sync`.
 ```json
 {
-  ...
   "plugins": {
-    ...
     "ZendeskChat": {
       "accountKey": "your-zendesk-account--key"
     }
