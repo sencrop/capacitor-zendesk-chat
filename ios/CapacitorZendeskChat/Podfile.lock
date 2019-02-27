@@ -1,0 +1,31 @@
+PODS:
+  - Capacitor (1.0.0-beta.17):
+    - CapacitorCordova (= 1.0.0-beta.17)
+  - CapacitorCordova (1.0.0-beta.17)
+  - ZDCChat (1.4.0):
+    - ZDCChat/API (= 1.4.0)
+    - ZDCChat/Localization (= 1.4.0)
+    - ZDCChat/UI (= 1.4.0)
+  - ZDCChat/API (1.4.0)
+  - ZDCChat/Localization (1.4.0)
+  - ZDCChat/UI (1.4.0):
+    - ZDCChat/API
+
+DEPENDENCIES:
+  - Capacitor (~> 1.0.0-beta.16)
+  - ZDCChat (~> 1.4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Capacitor
+    - CapacitorCordova
+    - ZDCChat
+
+SPEC CHECKSUMS:
+  Capacitor: e70f78a9f9ab26c8ad4a1f3a7aeda5da85e8d659
+  CapacitorCordova: 3acfc17886c27567d5c5dfebbc249b634d0eafdc
+  ZDCChat: 1def9764647bb81cf71aebd9df38aa4024c52d12
+
+PODFILE CHECKSUM: 73720ca848a3aa33c54d63d64f30fc66cfefadf5
+
+COCOAPODS: 1.5.3
