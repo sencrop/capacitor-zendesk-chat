@@ -11,7 +11,7 @@ require 'json'
     s.homepage = package['homepage']
     s.author = package['author']
     s.ios.deployment_target  = '11.0'
-    s.dependency 'Capacitor', '1.0.0-beta.16'
+    s.dependency 'Capacitor'
     s.dependency 'ZDCChat', '1.4.0'
     s.static_framework = true
     s.source = { :git => 'https://github.com/sencrop/capacitor-zendesk-chat', :tag => s.version.to_s }

@@ -1,7 +1,11 @@
 PODS:
-  - Capacitor (1.0.0-beta.17):
-    - CapacitorCordova (= 1.0.0-beta.17)
-  - CapacitorCordova (1.0.0-beta.17)
+  - Capacitor (0.0.113):
+    - CapacitorCordova (= 0.0.113)
+    - GCDWebServer (~> 3.0)
+  - CapacitorCordova (0.0.113)
+  - GCDWebServer (3.5.2):
+    - GCDWebServer/Core (= 3.5.2)
+  - GCDWebServer/Core (3.5.2)
   - ZDCChat (1.4.0):
     - ZDCChat/API (= 1.4.0)
     - ZDCChat/Localization (= 1.4.0)
@@ -12,20 +16,22 @@ PODS:
     - ZDCChat/API
 
 DEPENDENCIES:
-  - Capacitor (~> 1.0.0-beta.16)
+  - Capacitor
   - ZDCChat (~> 1.4.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Capacitor
     - CapacitorCordova
+    - GCDWebServer
     - ZDCChat
 
 SPEC CHECKSUMS:
-  Capacitor: e70f78a9f9ab26c8ad4a1f3a7aeda5da85e8d659
-  CapacitorCordova: 3acfc17886c27567d5c5dfebbc249b634d0eafdc
+  Capacitor: b37060b0b2685257bedbc69e49a54a74ef30fb9a
+  CapacitorCordova: a923a32bc7ad5f1f3d69664ca86ff69580343ed3
+  GCDWebServer: ead88cd14596dd4eae4f5830b8877c87c8728990
   ZDCChat: 1def9764647bb81cf71aebd9df38aa4024c52d12
 
-PODFILE CHECKSUM: 73720ca848a3aa33c54d63d64f30fc66cfefadf5
+PODFILE CHECKSUM: 779c4c7da73f5ca1f483174ebc45f9dddd9a3166
 
 COCOAPODS: 1.5.3
