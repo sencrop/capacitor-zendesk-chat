@@ -55,6 +55,6 @@ public class ZendeskChat extends Plugin {
             .department(department)
             .tags(tagsParameters);
 
-        ZopimChatActivity.startActivity(activity.getApplicationContext(), config);
+        ZopimChatActivity.startActivity(activity, config);
     }
 }
